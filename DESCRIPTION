@@ -1,0 +1,33 @@
+Package: SMRD.data
+Type: Package
+Title: Statistical Methods For Reliability Data - Datasets
+Version: 0.13.1
+Date: 2017-04-29
+Authors@R: c(
+    person("Jason", "Freels", email = "auburngrads@live.com", role = c("cre")),
+    person("William", "Meeker", email = "wqmeeker@iastate.edu", role = c("aut")),
+    person("Luis", "Escobar", email = "luis@lsu.edu", role = c("aut")))
+Maintainer: Jason Freels <auburngrads@live.com>   
+Description: Implements the reliability estimation functions and 
+    data sets for use with the text "Statistical Methods for 
+    Reliability Data" Copyright 1998 by Meeker & Escobar.
+License: GPL-2
+LazyData: true
+Depends:
+    R (>= 3.1.0)
+Imports:
+    graphics,
+    stats,
+    nlme,
+    lattice,
+    grid,
+    survival
+NeedsCompilation: no
+Archs: i386, x64
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
+Encoding: UTF-8
